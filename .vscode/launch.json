@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/Ebnf.Tools/bin/Debug/net6.0/Ebnf.Tools.dll",
-            "args": [],
+            "args": ["${workspaceFolder}/Ebnf.Tools/ebnf.g"],
             "cwd": "${workspaceFolder}/Ebnf.Tools",
             "console": "internalConsole",
             "stopAtEntry": false
